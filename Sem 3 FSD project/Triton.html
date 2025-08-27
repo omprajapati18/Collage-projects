@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container d-flex justify-content-center">
+            <div class="logo">
+                <span style="font-size: 22px; font-weight: bold;">Triton</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Links -->
+    <div class="nav-container">
+        <div class="container d-flex justify-content-center">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#brands">Shop</a>
+            <a class="nav-link" href="#brands">Collections</a>
+            <a class="nav-link" href="#brands">Brands</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Carousel Section -->
+    <div class="container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#demo" data-bs-slide-to="1"></button>
+            </div>
+
+            <!-- Slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="rolex1.jpg" alt="About" class="d-block w-100">
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="c.jpg" alt="Hire" class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Brand Section -->
+    <div class="brand-section">
+        <h2 id="brands">Shop by Brand</h2>
+        <div class="brand-container">
+            <div class="brand-logo">
+                <a href="#casio-watches">
+                    <img src="casiodial.png" alt="Casio">
+                </a>
+            </div>
+            <div class="brand-logo">
+                <a href="#fossil-watches">
+                    <img src="fossildail.png" alt="Fossil">
+                </a>
+            </div>
+            <div class="brand-logo">
+                <a href="#seiko-watches">
+                    <img src="seikodail.png" alt="Seiko">
+                </a>
+            </div>
+            <div class="brand-logo">
+                <a href="#tissot-watches">
+                    <img src="tissotdial.png" alt="Tissot">
+                </a>
+            </div>
+            <div class="brand-logo">
+                <a href="#citizen-watches">
+                    <img src="citizendail.png" alt="citizen">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Casio Watches Section -->
+<div class="container text-center my-5">
+    <h2 id="casio-watches"  class="mb-4"style="color: #132D2B">Casio Watches</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="casiowatch1.png" alt="Casio Watch 1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Casio Model A</h5>
+                    <p class="card-text">₹15000</p>
+                    <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#notAvailableModal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="casiowatch2.png" alt="Casio Watch 2" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Casio Model B</h5>
+                    <p class="card-text">₹18000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="casiowatch3.png" alt="Casio Watch 3" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Casio Model C</h5>
+                    <p class="card-text">₹20000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="casiowatch4.png" alt="Casio Watch 4" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Casio Model D</h5>
+                    <p class="card-text">₹25000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Fossil Watches Section -->
+<div class="container text-center my-5">
+    <h2 id="fossil-watches" class="mb-4" style="color: #132D2B">Fossil Watches</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="fossilwatch1.png" alt="Fossil Watch 1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Fossil Model A</h5>
+                    <p class="card-text">₹20000</p>
+                    <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#notAvailableModal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="fossilwatch2.png" alt="Fossil Watch 2" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Fossil Model B</h5>
+                    <p class="card-text">₹22000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="fossilwatch3.png" alt="Fossil Watch 3" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Fossil Model C</h5>
+                    <p class="card-text">₹25000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="fossilwatch4.png" alt="Fossil Watch 4" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Fossil Model D</h5>
+                    <p class="card-text">₹28000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Seiko Watches Section -->
+<div class="container text-center my-5">
+    <h2 id="seiko-watches" class="mb-4" style="color:#132D2B">Seiko Watches</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="seikowatch1.png" alt="Seiko Watch 1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Seiko Model A</h5>
+                    <p class="card-text">₹21000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="seikowatch2.png" alt="Seiko Watch 2" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Seiko Model B</h5>
+                    <p class="card-text">₹23000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="seikowatch3.png" alt="Seiko Watch 3" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Seiko Model C</h5>
+                    <p class="card-text">₹27000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="seikowatch4.png" alt="Seiko Watch 4" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Seiko Model D</h5>
+                    <p class="card-text">₹30000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tissot Watches Section -->
+<div class="container text-center my-5">
+    <h2 id="tissot-watches" class="mb-4" style="color: #132D2B">Tissot Watches</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="tissotwatch1.png" alt="Tissot Watch 1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tissot Model A</h5>
+                    <p class="card-text">₹28000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="tissotwatch2.png" alt="Tissot Watch 2" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tissot Model B</h5>
+                    <p class="card-text">₹32000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="tissotwatch3.png" alt="Tissot Watch 3" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tissot Model C</h5>
+                    <p class="card-text">₹35000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="tissotwatch4.png" alt="Tissot Watch 4" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tissot Model D</h5>
+                    <p class="card-text">₹40000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- citizen Watches Section -->
+<div class="container text-center my-5">
+    <h2 id="citizen-watches" class="mb-4" style="color:#132D2B">Citizen Watches</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="citizenwatch1.png" alt="Citizen Watch 1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Citizen Model A</h5>
+                    <p class="card-text">₹35000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="citizenwatch2.png" alt="Citizen Watch 2" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Citizen Model B</h5>
+                    <p class="card-text">₹38000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="citizenwatch3.png" alt="Citizen Watch 3" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Citizen Model C</h5>
+                    <p class="card-text">₹42000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+                <img src="citizenwatch4.png" alt="Citizen Watch 4" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Citizen Model D</h5>
+                    <p class="card-text">₹45000</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container" id="contact" >
+        <div class="footer-section"  >
+            <h4>Our Information</h4>
+            <ul>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Store House</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <ul>
+                <li><a href="#">Support Center</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Copy Right</a></li>
+                <li><a href="#">Popular Campaign</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Product</h4>
+            <ul>
+                <li><a href="#">Sports Watches</a></li>
+                <li><a href="#">Chronographic Watches</a></li>
+                <li><a href="#">Digital Watches</a></li>
+                <li><a href="#">Mechanical Watches</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#">Product Help</a></li>
+                <li><a href="#">Service & Warranty</a></li>
+                <li><a href="#">Righting Beats</a></li>
+                <li><a href="#">Authorized Service</a></li>
+                <li><a href="#">Customer Care</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="copyright">Copyright © 2025 Web Design Mastery. All rights reserved.</p>
+</footer>
+
+
+<div class="modal " id="notAvailableModal"  >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Availability status</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+            </div>
+            <div class="modal-body">
+                Currently not available
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
